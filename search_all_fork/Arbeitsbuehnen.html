@@ -1,0 +1,922 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="forklift1.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet" />
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/Arbeitsbuehnen.css" rel="stylesheet" />
+</head>
+
+
+<body>
+
+
+
+    <nav class="navbar navbar-default navbar-static-top">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#Gabelstapler">Gabelstapler</a></li>
+                    <li><a href="Anbaugerate.html">Anbäügeräte</a></li>
+                    <li><a href="Arbeitsbuehnen.html">Arbeitsbühnen</a></li>
+                    <li><a href="Batterie.html">Batterie</a></li>
+                    <li><a href="Lädegerate.html">Lädegeräte</a></li>
+                    <li><a href="Reinigungstechnik.html">Reinigungstechnik</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class='form-group'>
+        <div onclick="myFunction_Arbeitsbuehnen()"></div>
+
+        <section id="Arbeitsbuehnen">
+
+            <div class="s010">
+
+
+                <form>
+                    <div class="inner-form">
+                        <div class="basic-search">
+                            <div class="input-field">
+                                <input id="search" type="text" placeholder="Search all field" />
+                                <div class="icon-wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="advance-search">
+                            <span class="desc"> More Search Fields</span>
+                            <div class="row">
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Bauart" name="Bauart">
+                                    
+
+                    <option placeholder="" value="Bauart">Bauart</option>
+                 <option value ="Anhänger-Arbeitsbühne">Anhänger-Arbeitsbühne</option>
+                    <option value="Gelenkteleskopbühne">Gelenkteleskopbühne</option>
+                    <option value ="LKW-Arbeitsbühne">LKW-Arbeitsbühne</option>
+                    <option value="Scherenarbeitsbühne">Scherenarbeitsbühne</option>
+                    <option value ="Senkrechtarbeitsbühne">Senkrechtarbeitsbühne</option>
+                    <option value="Spezialgeräte ">Spezialgeräte</option>
+                    <option value=" Teleskopbühne">Teleskopbühne</option>
+                  
+                  </select>
+
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Fabrikat" name="Fabrikat">
+                    <option placeholder="Fabrikat" value="Fabrikat">Fabrikat</option>
+                    <option value="alle">Fabrikat</option>
+ <option value="ABW">ABM</option>
+ <option value="Aichi">Aichi</option> 
+<option value="Airo">Airo</option>
+ <option value="ALMACRAWLER">ALMACRAWLER</option> 
+<option value="ATN">ATN</option> 
+<option value="Bravi">Bravi</option> 
+<option value="CMC">CMC</option> 
+<option value="Crown">Crown</option>
+ <option value="CTE">CTE</option> 
+<option value="Delta">Delta</option>
+ <option value="Denka">Denka</option> 
+<option value="Denka Lift">Denka Lift</option>
+ <option value="Dingli">Dingli</option> 
+<option value="DINO Lift">DINO Lift</option>
+ <option value="Easy Lift">Easy Lift</option> 
+<option value="Elevah">Elevah</option>
+ <option value="Euro Access">Euro Access</option> 
+<option value="Faraone - Elevah">Faraone - Elevah</option>
+ <option value="Fronteq">Fronteq</option> 
+<option value="Genie">Genie</option> 
+<option value="GMG">GMG</option> 
+<option value="Grove">Grove</option>
+ <option value="Hangcha">Hangcha</option> 
+<option value="Haulotte">Haulotte</option>
+ <option value="Heli">Heli</option>
+ <option value="Hematec">Hematec</option>
+ <option value="Holland-Lift">Holland-Lift</option> 
+<option value="Isoli">Isoli</option> 
+<option value="Iteco">Iteco</option> 
+<option value="JCB">JCB</option> 
+<option value="JLG">JLG</option>
+ <option value="LGMG">ACMG</option>
+ <option value="LIFTLUX">LIFTLUX</option> 
+<option value="Magni">Magni</option> 
+<option value="Manitou">Manitou</option> 
+<option value="MEC">MEC</option> 
+<option value="Mercedes">Mercedes</option> 
+<option value="Mercedes-Benz">Mercedes-Benz</option> 
+<option value="Multitel-Pagliero">Multitel-Pagliero</option> 
+<option value="Nifty-Lift">Nifty-Lift</option>
+ <option value="Niftylift">Niftylift</option>
+ <option value="NISSAN">NISSAN</option>
+ <option value="Oil&Steel">Oil&Steel</option> 
+<option value="OMME Lift">OMME Lift</option>
+ <option value="Palazzani">Palazzani</option> 
+<option value="PALFINGER">PALFINGER</option> 
+<option value="PB">PB</option> 
+<option value="PLATFORM BASKET">PLATFORM BASKET</option>
+ <option value="Power Tower">Power Tower</option>
+
+ <option value="RENAULT">RENAULT</option>
+ <option value="Royal">Royal</option> 
+<option value="Ruthmann">Ruthmann</option>
+ <option value="Sequani">Sequani</option> 
+<option value="Sinoboom">Sinoboom</option>
+ <option value="Skyack">Skyack</option> 
+<option value="Skyjack">Skyjack</option> 
+<option value="Snorker">Snorkel</option>
+ <option value="Socage">Socage</option>
+ <option value="Terex Aerials">Terex Aerials</option>
+ <option value="Teupen">Teupen</option>
+ <option value="Upright">Upright</option>
+ <option value="Volkswagen">Volkswagen</option>
+ <option value="[other]">other</option>
+
+                  </select>
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Arbeitshöhe Von" name="Arbeitshöhe von">
+                                    <option placeholder="Arbeitshöhe(von)" value="Arbeitshöhe von">Arbeitshöhe von</option>
+                                    <option value="0">0 mm</option>
+                                     <option value="500">500 mm</option> 
+                                    <option value="1000">1000 mm</option> 
+                                    <option value="1500">1500 mm</option> 
+                                    <option value="2000">2000 mm</option> 
+                                    <option value="2500">2500 mm</option> 
+                                    <option value="3000">3000 mm</option> 
+                                    <option value="3500">3500 mm</option> 
+                                    <option value="4000">4000 mm</option> 
+                                    <option value="4500">4500 mm</option>
+                                     <option value="5000">5000 mm</option> 
+                                    <option value="5500">5500 mm</option>
+                                     <option value="6000">6000 mm</option>
+                                     <option value="6500">6500 mm</option>
+                                     <option value="7000">7000 mm</option> 
+                                    <option value="7500">7500 mm</option>
+                                     <option value="8000">8000 mm</option>
+                                     <option value="8500">8500 mm</option> 
+                                    <option value="9000">9000 mm</option> 
+                                    <option value="9500">9500 mm</option> 
+                                    <option value="10000">10000 mm</option>
+                                     <option value="10500">10500 mm</option> 
+                                    <option value="11000">11000 mm</option>
+                                     <option value="11500">11500 mm</option>
+                                     <option value="12000">12000 mm</option> 
+                                    <option value="12500">12500 mm</option> 
+                                    <option value="13000">13000 mm</option>
+                                     <option value="13500">13500 mm</option>
+                                     <option value="14000">14000 mm</option> 
+                                    <option value="14500">14500 mm</option> 
+                                    <option value="15000">15000 mm</option>
+                                     <option value="15500">15500 mm</option>
+                                     <option value="16000">16000 mm</option>
+                                     <option value="16500">16500 mm</option>
+                                     <option value="17000">17000 mm</option>
+                                     <option value="17500">17500 mm</option> 
+                                    <option value="18000">18000 mm</option>
+                                     <option value="18500">18500 mm</option> 
+                                    <option value="19000">19000 mm</option> 
+                                    <option value="19500">19500 mm</option> 
+                                    <option value="20000">20000 mm</option> 
+                                    <option value="20500">20500 mm</option>
+                                     <option value="21000">21000 mm</option>
+                                     <option value="21500">21500 mm</option> 
+                                    <option value="22000">22000 mm</option> 
+                                    <option value="22500">22500 mm</option> 
+                                    <option value="23000">23000 mm</option>
+                                     <option value="23500">23500 mm</option>
+                                     <option value="24000">24000 mm</option>
+                                     <option value="24500">24500 mm</option> 
+                                    <option value="25000">25000 mm</option> 
+                                    <option value="25500">25500 mm</option>
+                                    <option value="26000">26000 mm </option>
+                                    <option value="26500">26500 mm </option> 
+                                    <option value="27000">27000 mm </option>
+                                    <option value="27500">27500 mm </option>
+                                     <option value="28000">28000 mm </option>
+                                     <option value="28500">28500 mm </option>
+                                     <option value="29000">29000 mm </option>
+                                     <option value="29500">29500 mm </option>
+                                    <option value="30000">30000 mm </option>
+                                    <option value="30500">30500 mm </option>
+                                     <option value="31000">31000 mm </option>
+                                     <option value="31500">31500 mm </option>
+                                    <option value="32000">32000 mm </option>
+                                    <option value="32500">32500 mm </option>
+                                    <option value="33000">33000 mm </option>
+                                     <option value="33500">33500 mm </option>
+                                     <option value="34000">34000 mm </option>
+                                    <option value="34500">34500 mm </option>
+                                    <option value="35000">35000 mm </option>
+                                    <option value="35500">35500 mm </option>
+                                     <option value="36000">36000 mm </option>
+                                     <option value="36500">36500 mm </option>
+                                     <option value="37000">37000 mm </option>
+                                    <option value="37500">37500 mm </option>
+                                     <option value="38000">38000 mm </option>
+                                     <option value="38500">38500 mm </option>
+                                    <option value="39000">39000 mm </option>
+                                    <option value="39500">39500 mm </option>
+                                     <option value="40000">40000 mm </option>
+                                    <option value="40500">40500 mm </option>
+                                    <option value="41000">41000 mm </option>
+                                     <option value="41500">41500 mm </option>
+                                    <option value="42000">42000 mm </option>
+                                    <option value="42500">42500 mm </option>
+                                     <option value="43000">43000 mm </option>
+                                     <option value="43500">43500 mm </option>
+                                    <option value="44000">44000 mm </option>
+                                     <option value="44500">44500 mm </option>
+                                    <option value="45000">45000 mm </option>
+                                     <option value="45500">45500 mm </option>
+                                    <option value="46000">46000 mm </option>
+                                     <option value="46500">46500 mm </option>
+                                     <option value="47000">47000 mm </option>
+                                    <option value="47500">47500 mm </option>
+                                    <option value="48000">48000 mm </option>
+                                     <option value="48500">48500 mm </option>
+                                    <option value="49000">49000 mm </option>
+                                     <option value="49500">49500 mm </option>
+                                     <option value="50000">50000 mm </option>
+                                     <option value="50500">50500 mm </option>
+                                     <option value="51000">51000 mm </option>
+                                     <option value="51500">51500 mm </option>
+                                     <option value="52000">52000 mm </option>
+                                    <option value="52500">52500 mm</option> 
+                                     <option value="53000">53000 mm</option> 
+                                     <option value="53500">53500 mm</option> 
+                                     <option value="54000">54000 mm</option> 
+                                     <option value="54500">54500 mm</option> 
+                                     <option value="55000">55000 mm</option> 
+                                     <option value="55500">55500 mm</option> 
+                                    <option value="56000">56000 mm</option> 
+                                    <option value="56500">56500 mm</option> 
+                                     <option value="57000">57000 mm</option> 
+                                     <option value="57500">57500 mm</option> 
+                                    <option value="58000">58000 mm</option> 
+                                    <option value="58500">58500 mm</option> 
+                                     <option value="59000">59000 mm</option> 
+                                    <option value="59500">59500 mm</option> 
+                                    <option value="60000">60000 mm</option> 
+                                     <option value="60500">60500 mm</option> 
+                                    <option value="61000">61000 mm</option> 
+                                    <option value="61500">61500 mm</option> 
+                                     <option value="62000">62000 mm</option> 
+                                    <option value="62500">62500 mm</option> 
+                                    <option value="63000">63000 mm</option> 
+                                    <option value="63500">63500 mm</option> 
+                                     <option value="64000">64000 mm</option> 
+                                    <option value="64500">64500 mm</option> 
+                                    <option value="65000">65000 mm</option> 
+                                    <option value="65500">65500 mm</option> 
+                                     <option value="66000">66000 mm</option> 
+                                    <option value="66500">66500 mm</option> 
+                                    <option value="67000">67000 mm</option> 
+                                    <option value="67500">67500 mm</option> 
+                                    <option value="68000">68000 mm</option> 
+                                    <option value="68500">68500 mm</option> 
+                                    <option value="69000">69000 mm</option> 
+                                     <option value="69500">69500 mm</option> 
+                                    <option value="70000">70000 mm</option> 
+                                     <option value="70500">70500 mm</option> 
+                                     <option value="71000">71000 mm</option> 
+                                    <option value="71500">71500 mm</option> 
+                                     <option value="72000">72000 mm</option> 
+                                     <option value="72500">72500 mm</option> 
+                                     <option value="73000">73000 mm</option> 
+                                     <option value="73500">73500 mm</option> 
+                                     <option value="74000">74000 mm</option> 
+                                    <option value="74500">74500 mm</option> 
+                                     <option value="75000">75000 mm</option> 
+                                    <option value="75500">75500 mm</option> 
+                                     <option value="76000">76000 mm</option> 
+                                     <option value="76500">76500 mm</option> 
+                                    <option value="77000">77000 mm</option> 
+                                     <option value="77500">77500 mm</option> 
+                                     <option value="78000">78000 mm</option> 
+                                    <option value= "78500">78500 mm</option>
+                                    <option value= "79000">79000 mm</option>
+                                    <option value= "79500">79500 mm</option>
+                                    <option value= "8000">8000 mm</option>
+                                    
+                                    
+
+
+                  </select>
+                                    </div>
+                                </div>
+
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Arbeitshöhe bis" name="Arbeitshöhe bis">
+                                    <option placeholder="Arbeitshöhe bis" value="Arbeitshöhe bis">Arbeitshöhe bis</option>
+                                    <option value="0">0 mm</option>
+                                     <option value="500">500 mm</option> 
+                                    <option value="1000">1000 mm</option> 
+                                    <option value="1500">1500 mm</option> 
+                                    <option value="2000">2000 mm</option> 
+                                    <option value="2500">2500 mm</option> 
+                                    <option value="3000">3000 mm</option> 
+                                    <option value="3500">3500 mm</option> 
+                                    <option value="4000">4000 mm</option> 
+                                    <option value="4500">4500 mm</option>
+                                     <option value="5000">5000 mm</option> 
+                                    <option value="5500">5500 mm</option>
+                                     <option value="6000">6000 mm</option>
+                                     <option value="6500">6500 mm</option>
+                                     <option value="7000">7000 mm</option> 
+                                    <option value="7500">7500 mm</option>
+                                     <option value="8000">8000 mm</option>
+                                     <option value="8500">8500 mm</option> 
+                                    <option value="9000">9000 mm</option> 
+                                    <option value="9500">9500 mm</option> 
+                                    <option value="10000">10000 mm</option>
+                                     <option value="10500">10500 mm</option> 
+                                    <option value="11000">11000 mm</option>
+                                     <option value="11500">11500 mm</option>
+                                     <option value="12000">12000 mm</option> 
+                                    <option value="12500">12500 mm</option> 
+                                    <option value="13000">13000 mm</option>
+                                     <option value="13500">13500 mm</option>
+                                     <option value="14000">14000 mm</option> 
+                                    <option value="14500">14500 mm</option> 
+                                    <option value="15000">15000 mm</option>
+                                     <option value="15500">15500 mm</option>
+                                     <option value="16000">16000 mm</option>
+                                     <option value="16500">16500 mm</option>
+                                     <option value="17000">17000 mm</option>
+                                     <option value="17500">17500 mm</option> 
+                                    <option value="18000">18000 mm</option>
+                                     <option value="18500">18500 mm</option> 
+                                    <option value="19000">19000 mm</option> 
+                                    <option value="19500">19500 mm</option> 
+                                    <option value="20000">20000 mm</option> 
+                                    <option value="20500">20500 mm</option>
+                                     <option value="21000">21000 mm</option>
+                                     <option value="21500">21500 mm</option> 
+                                    <option value="22000">22000 mm</option> 
+                                    <option value="22500">22500 mm</option> 
+                                    <option value="23000">23000 mm</option>
+                                     <option value="23500">23500 mm</option>
+                                     <option value="24000">24000 mm</option>
+                                     <option value="24500">24500 mm</option> 
+                                    <option value="25000">25000 mm</option> 
+                                    <option value="25500">25500 mm</option>
+                                    <option value="26000">26000 mm </option>
+                                    <option value="26500">26500 mm </option> 
+                                    <option value="27000">27000 mm </option>
+                                    <option value="27500">27500 mm </option>
+                                     <option value="28000">28000 mm </option>
+                                     <option value="28500">28500 mm </option>
+                                     <option value="29000">29000 mm </option>
+                                     <option value="29500">29500 mm </option>
+                                    <option value="30000">30000 mm </option>
+                                    <option value="30500">30500 mm </option>
+                                     <option value="31000">31000 mm </option>
+                                     <option value="31500">31500 mm </option>
+                                    <option value="32000">32000 mm </option>
+                                    <option value="32500">32500 mm </option>
+                                    <option value="33000">33000 mm </option>
+                                     <option value="33500">33500 mm </option>
+                                     <option value="34000">34000 mm </option>
+                                    <option value="34500">34500 mm </option>
+                                    <option value="35000">35000 mm </option>
+                                    <option value="35500">35500 mm </option>
+                                     <option value="36000">36000 mm </option>
+                                     <option value="36500">36500 mm </option>
+                                     <option value="37000">37000 mm </option>
+                                    <option value="37500">37500 mm </option>
+                                     <option value="38000">38000 mm </option>
+                                     <option value="38500">38500 mm </option>
+                                    <option value="39000">39000 mm </option>
+                                    <option value="39500">39500 mm </option>
+                                     <option value="40000">40000 mm </option>
+                                    <option value="40500">40500 mm </option>
+                                    <option value="41000">41000 mm </option>
+                                     <option value="41500">41500 mm </option>
+                                    <option value="42000">42000 mm </option>
+                                    <option value="42500">42500 mm </option>
+                                     <option value="43000">43000 mm </option>
+                                     <option value="43500">43500 mm </option>
+                                    <option value="44000">44000 mm </option>
+                                     <option value="44500">44500 mm </option>
+                                    <option value="45000">45000 mm </option>
+                                     <option value="45500">45500 mm </option>
+                                    <option value="46000">46000 mm </option>
+                                     <option value="46500">46500 mm </option>
+                                     <option value="47000">47000 mm </option>
+                                    <option value="47500">47500 mm </option>
+                                    <option value="48000">48000 mm </option>
+                                     <option value="48500">48500 mm </option>
+                                    <option value="49000">49000 mm </option>
+                                     <option value="49500">49500 mm </option>
+                                     <option value="50000">50000 mm </option>
+                                     <option value="50500">50500 mm </option>
+                                     <option value="51000">51000 mm </option>
+                                     <option value="51500">51500 mm </option>
+                                     <option value="52000">52000 mm </option>
+                                    <option value="52500">52500 mm</option> 
+                                     <option value="53000">53000 mm</option> 
+                                     <option value="53500">53500 mm</option> 
+                                     <option value="54000">54000 mm</option> 
+                                     <option value="54500">54500 mm</option> 
+                                     <option value="55000">55000 mm</option> 
+                                     <option value="55500">55500 mm</option> 
+                                    <option value="56000">56000 mm</option> 
+                                    <option value="56500">56500 mm</option> 
+                                     <option value="57000">57000 mm</option> 
+                                     <option value="57500">57500 mm</option> 
+                                    <option value="58000">58000 mm</option> 
+                                    <option value="58500">58500 mm</option> 
+                                     <option value="59000">59000 mm</option> 
+                                    <option value="59500">59500 mm</option> 
+                                    <option value="60000">60000 mm</option> 
+                                     <option value="60500">60500 mm</option> 
+                                    <option value="61000">61000 mm</option> 
+                                    <option value="61500">61500 mm</option> 
+                                     <option value="62000">62000 mm</option> 
+                                    <option value="62500">62500 mm</option> 
+                                    <option value="63000">63000 mm</option> 
+                                    <option value="63500">63500 mm</option> 
+                                     <option value="64000">64000 mm</option> 
+                                    <option value="64500">64500 mm</option> 
+                                    <option value="65000">65000 mm</option> 
+                                    <option value="65500">65500 mm</option> 
+                                     <option value="66000">66000 mm</option> 
+                                    <option value="66500">66500 mm</option> 
+                                    <option value="67000">67000 mm</option> 
+                                    <option value="67500">67500 mm</option> 
+                                    <option value="68000">68000 mm</option> 
+                                    <option value="68500">68500 mm</option> 
+                                    <option value="69000">69000 mm</option> 
+                                     <option value="69500">69500 mm</option> 
+                                    <option value="70000">70000 mm</option> 
+                                     <option value="70500">70500 mm</option> 
+                                     <option value="71000">71000 mm</option> 
+                                    <option value="71500">71500 mm</option> 
+                                     <option value="72000">72000 mm</option> 
+                                     <option value="72500">72500 mm</option> 
+                                     <option value="73000">73000 mm</option> 
+                                     <option value="73500">73500 mm</option> 
+                                     <option value="74000">74000 mm</option> 
+                                    <option value="74500">74500 mm</option> 
+                                     <option value="75000">75000 mm</option> 
+                                    <option value="75500">75500 mm</option> 
+                                     <option value="76000">76000 mm</option> 
+                                     <option value="76500">76500 mm</option> 
+                                    <option value="77000">77000 mm</option> 
+                                     <option value="77500">77500 mm</option> 
+                                     <option value="78000">78000 mm</option> 
+                                    <option value= "78500">78500 mm</option>
+                                    <option value= "79000">79000 mm</option>
+                                    <option value= "79500">79500 mm</option>
+                                    <option value= "8000">8000 mm</option>
+                                    
+                                    
+
+
+                  </select>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-select">
+
+                                <div class="row second">
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="korblast ab" name="korblast ab">
+                                        <option placeholder="korblast ab" value="korblast ab">Korblast ab </option>
+                                        
+                                        <option value="0">0</option>
+                                        <option value='500'>500 kg</option>
+                                        <option value="1000">1000 kg </option>
+                                        <option value="1500">1500 kg </option>
+                                        <option value="2000">2000 kg</option>
+                                        <option value="2500">2500 kg</option>
+                                        <option value="3000">3000 kg</option>
+                                        <option value="3500">3500 kg</option>
+                                        <option value="4000">4000 kg </option>
+                                        <option value="4500">4500 kg </option>
+                                        <option value="5000">5000 kg</option>
+                                        <option value="5500">5500 kg</option>
+                                        <option value="6000">6000 kg</option>
+                                        <option value="6500">6500 kg</option>
+                                        <option value="7000">7000 kg</option>
+                                        <option value="7500">7500 kg</option>
+                                        <option value="8000">8000 kg</option>
+                                        <option value="8500">8500 kg</option>
+                                        <option value="9000">9000 kg</option>
+                                        <option value="10000">10000 kg</option>
+                                        <option value="15000">15000 kg</option>
+                                        <option value="20000">20000 kg</option>
+                                        <option value="25000">25000 kg</option>
+                                        <option value="30000">30000 kg</option>
+                                        <option value="35000">35000 kg</option>
+                                        <option value="40000">40000 kg</option>
+                                        <option value="45000">45000 kg</option>
+                                        <option value="50000">50000 kg</option>
+                                        <option value="55000">55000 kg</option>
+                                        <option value="60000">60000 kg</option>
+                                        <option value="65000">65000 kg</option>
+                                        <option value="70000">70000 kg</option>
+                                        <option value="75000">75000 kg</option>
+                                        <option value="80000">80000 kg</option>
+                                        <option value="85000">85000 kg</option>
+                                        <option value="90000">90000 kg</option>
+                                        <option value="100000">100000 kg</option>
+
+                                       
+
+                  </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Korblast bis" name="Korblast bis">
+                    <option placeholder="Korblast bis" value="">Korblast bis</option>
+
+                      
+                    <option value="0">0</option>
+                    <option value='500'>500 kg</option>
+                    <option value="1000">1000 kg </option>
+                    <option value="1500">1500 kg </option>
+                    <option value="2000">2000 kg</option>
+                    <option value="2500">2500 kg</option>
+                    <option value="3000">3000 kg</option>
+                    <option value="3500">3500 kg</option>
+                    <option value="4000">4000 kg </option>
+                    <option value="4500">4500 kg </option>
+                    <option value="5000">5000 kg</option>
+                    <option value="5500">5500 kg</option>
+                    <option value="6000">6000 kg</option>
+                    <option value="6500">6500 kg</option>
+                    <option value="7000">7000 kg</option>
+                    <option value="7500">7500 kg</option>
+                    <option value="8000">8000 kg</option>
+                    <option value="8500">8500 kg</option>
+                    <option value="9000">9000 kg</option>
+                    <option value="10000">10000 kg</option>
+                    <option value="15000">15000 kg</option>
+                    <option value="20000">20000 kg</option>
+                    <option value="25000">25000 kg</option>
+                    <option value="30000">30000 kg</option>
+                    <option value="35000">35000 kg</option>
+                    <option value="40000">40000 kg</option>
+                    <option value="45000">45000 kg</option>
+                    <option value="50000">50000 kg</option>
+                    <option value="55000">55000 kg</option>
+                    <option value="60000">60000 kg</option>
+                    <option value="65000">65000 kg</option>
+                    <option value="70000">70000 kg</option>
+                    <option value="75000">75000 kg</option>
+                    <option value="80000">80000 kg</option>
+                    <option value="85000">85000 kg</option>
+                    <option value="90000">90000 kg</option>
+                    <option value="100000">100000 kg</option>
+
+                   
+                  </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Preis Von" name="Preis Von">
+                    <option placeholder="Preis Von" value="Preis Von">Preis Von </option>
+                    <option value="0">0 EUR</option>
+                    <option value="1000">1000 EUR</option>
+                    <option value="2000">2000 EUR</option>
+                    <option value="3000">3000 EUR</option>
+                    <option value="4000">4000 EUR</option> 
+                   <option value="5000">5000 EUR</option> 
+                   <option value="6000">6000 EUR</option>
+                    <option value="7000">7000 EUR</option>
+                    <option value="8000">8000 EUR</option>
+                    <option value="9000">9000 EUR</option>
+                    <option value="10000">10000 EUR</option>
+                    <option value="11000">11000 EUR</option>
+                    <option value="12000">12000 EUR</option> 
+                   <option value="13000">13000 EUR</option>
+                    <option value="14000">14000 EUR</option>
+                    <option value="15000">15000 EUR</option> 
+                   <option value="16000">16000 EUR</option>
+                    <option value="17000">17000 EUR</option>
+                    <option value="18000">18000 EUR</option> 
+                   <option value="19000">19000 EUR</option> 
+                   <option value="20000">20000 EUR</option> 
+                   <option value="21000">21000 EUR</option>
+                    <option value="22000">22000 EUR</option>
+                    <option value="23000">23000 EUR</option>
+                    <option value="24000">24000 EUR</option> 
+                   <option value="25000">25000 EUR</option> 
+                   <option value="26000">26000 EUR</option>
+                    <option value="27000">27000 EUR</option> 
+                   <option value="28000">28000 EUR</option> 
+                   <option value="29000">29000 EUR</option>
+                    <option value="30000">30000 EUR</option>
+                    <option value="31000">31000 EUR</option> 
+                   <option value="32000">32000 EUR</option> 
+                   <option value="33000">33000 EUR</option>
+                    <option value="34000">34000 EUR</option> 
+                   <option value="35000">35000 EUR</option> 
+                   <option value="36000">36000 EUR</option> 
+                   <option value="37000">37000 EUR</option> 
+                   <option value="38000">38000 EUR</option> 
+                   <option value="39000">39000 EUR</option> 
+                   <option value="40000">40000 EUR</option> 
+                   <option value="41000">41000 EUR</option>
+                    <option value="42000">42000 EUR</option> 
+                   <option value="43000">43000 EUR</option> 
+                   <option value="44000">44000 EUR</option> 
+                   <option value="45000">45000 EUR</option> 
+                   <option value="46000">46000 EUR</option>
+                    <option value="47000">47000 EUR</option> 
+                   <option value="48000">48000 EUR</option>
+                    <option value="49000">49000 EUR</option>
+                   <option value="50000">50000 EUR</option>
+                     <option value="51000">51000 EUR </option>
+                    <option value="52000">52000 EUR  </option>
+                    <option value="53000">53000 EUR  </option>
+                    <option value="54800">54000 EUR  </option>
+                   <option value="55000">55000 EUR  </option>
+                    <option value="56800">56000 EUR  </option>
+                   <option value="57000">57000 EUR  </option>
+                   <option value="58800">58000 EUR  </option>
+                   <option value="59000">59000 EUR  </option>
+                    <option value="60000">60000 EUR  </option>
+                   <option value="61000">61000 EUR  </option>
+                    <option value="62000">62000 EUR  </option>
+                    <option value="63000">63000 EUR  </option>
+                   <option value="64000">64000 EUR  </option>
+                   <option value="65000">65000 EUR  </option>
+                   <option value="66000">66000 EUR  </option>
+                    <option value="67000">67000 EUR  </option>
+                    <option value="68000">68000 EUR  </option>
+                   <option value="69000">69000 EUR  </option>
+                   <option value="70000">70000 EUR  </option>
+                   <option value="71000">71000 EUR  </option>
+                    <option value="72000">72000 EUR  </option>
+                    <option value="73000">73000 EUR  </option>
+                    <option value="74000">74000 EUR  </option>
+                    <option value="75000">75000 EUR  </option>
+                   <option value="76000">76000 EUR  </option>
+                   <option value="77000">77000 EUR  </option>
+                   <option value="78800">78000 EUR  </option>
+                   <option value="79000">79000 EUR  </option>
+                    <option value="80000">80000 EUR  </option>
+                   
+                  </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Preis bis" name="Preis bis">
+                    <option placeholder="Preis bis" value="Preis bis">Preis Bis </option>
+                    <option value="0">0 EUR</option>
+                    <option value="1000">1000 EUR</option>
+                    <option value="2000">2000 EUR</option>
+                    <option value="3000">3000 EUR</option>
+                    <option value="4000">4000 EUR</option> 
+                   <option value="5000">5000 EUR</option> 
+                   <option value="6000">6000 EUR</option>
+                    <option value="7000">7000 EUR</option>
+                    <option value="8000">8000 EUR</option>
+                    <option value="9000">9000 EUR</option>
+                    <option value="10000">10000 EUR</option>
+                    <option value="11000">11000 EUR</option>
+                    <option value="12000">12000 EUR</option> 
+                   <option value="13000">13000 EUR</option>
+                    <option value="14000">14000 EUR</option>
+                    <option value="15000">15000 EUR</option> 
+                   <option value="16000">16000 EUR</option>
+                    <option value="17000">17000 EUR</option>
+                    <option value="18000">18000 EUR</option> 
+                   <option value="19000">19000 EUR</option> 
+                   <option value="20000">20000 EUR</option> 
+                   <option value="21000">21000 EUR</option>
+                    <option value="22000">22000 EUR</option>
+                    <option value="23000">23000 EUR</option>
+                    <option value="24000">24000 EUR</option> 
+                   <option value="25000">25000 EUR</option> 
+                   <option value="26000">26000 EUR</option>
+                    <option value="27000">27000 EUR</option> 
+                   <option value="28000">28000 EUR</option> 
+                   <option value="29000">29000 EUR</option>
+                    <option value="30000">30000 EUR</option>
+                    <option value="31000">31000 EUR</option> 
+                   <option value="32000">32000 EUR</option> 
+                   <option value="33000">33000 EUR</option>
+                    <option value="34000">34000 EUR</option> 
+                   <option value="35000">35000 EUR</option> 
+                   <option value="36000">36000 EUR</option> 
+                   <option value="37000">37000 EUR</option> 
+                   <option value="38000">38000 EUR</option> 
+                   <option value="39000">39000 EUR</option> 
+                   <option value="40000">40000 EUR</option> 
+                   <option value="41000">41000 EUR</option>
+                    <option value="42000">42000 EUR</option> 
+                   <option value="43000">43000 EUR</option> 
+                   <option value="44000">44000 EUR</option> 
+                   <option value="45000">45000 EUR</option> 
+                   <option value="46000">46000 EUR</option>
+                    <option value="47000">47000 EUR</option> 
+                   <option value="48000">48000 EUR</option>
+                    <option value="49000">49000 EUR</option>
+                   <option value="50000">50000 EUR</option>
+                     <option value="51000">51000 EUR </option>
+                    <option value="52000">52000 EUR  </option>
+                    <option value="53000">53000 EUR  </option>
+                    <option value="54800">54000 EUR  </option>
+                   <option value="55000">55000 EUR  </option>
+                    <option value="56800">56000 EUR  </option>
+                   <option value="57000">57000 EUR  </option>
+                   <option value="58800">58000 EUR  </option>
+                   <option value="59000">59000 EUR  </option>
+                    <option value="60000">60000 EUR  </option>
+                   <option value="61000">61000 EUR  </option>
+                    <option value="62000">62000 EUR  </option>
+                    <option value="63000">63000 EUR  </option>
+                   <option value="64000">64000 EUR  </option>
+                   <option value="65000">65000 EUR  </option>
+                   <option value="66000">66000 EUR  </option>
+                    <option value="67000">67000 EUR  </option>
+                    <option value="68000">68000 EUR  </option>
+                   <option value="69000">69000 EUR  </option>
+                   <option value="70000">70000 EUR  </option>
+                   <option value="71000">71000 EUR  </option>
+                    <option value="72000">72000 EUR  </option>
+                    <option value="73000">73000 EUR  </option>
+                    <option value="74000">74000 EUR  </option>
+                    <option value="75000">75000 EUR  </option>
+                   <option value="76000">76000 EUR  </option>
+                   <option value="77000">77000 EUR  </option>
+                   <option value="78800">78000 EUR  </option>
+                   <option value="79000">79000 EUR  </option>
+                    <option value="80000">80000 EUR  </option>
+                   
+                  </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Land" name="Land">
+                                        <option placeholder="Land" value="Land">Land</option>
+                                        
+<option value="*">Land</option>
+<option value=" Europa " selected>Europa</option>
+<option value=" Albanien ">Albanien</option>
+<option value=" Osterreich ">Osterreich</option> 
+<option value=" Belgien ">Belgien</option>
+<option value=" Bulgarien ">Bulgarien</option> 
+<option value=" Dänemark ">Dänemark</option>
+<option value=" Deutschland ">Deutschland</option> 
+<option value=" Estland "> Estland</option> 
+<option value=" Finnland "> Finnland</option>
+<option value=" Frankreich " >Frankreich</option> 
+<option value=" Ariechenland ">Ariechenland</option> 
+<option value=" Großbritannien ">Großbritannien</option>
+<option value=" Irland ">Irland</option> 
+<option value=" Island ">Island</option>
+<option value=" Italien ">Italien</option> 
+<option value=" Kroatien ">Kroatien</option> 
+<option value=" Litauen ">Litauen</option> 
+<option value=" Mazedonien "> Mazedonien</option>
+<option value=" Moldawien ">Moldawien</option> 
+<option value=" Niederlande ">Niederlande</option>
+<option value=" Norwegen ">Norwegen</option> 
+<option value=" Polen ">Polen</option>
+<option value=" Portugal ">Portugal</option> 
+<option value=" Rußland">Rußland </option> 
+<option value= " Rumanien "> Rumanien</option>
+<option value= " Schweden "> Schweden</option> 
+<option value=  " Schweiz " >Schweiz</option> 
+<option value-=" Serbien " >Serbien</option> 
+<option value= " Slowakei "> Slowakei</option>
+<option value= " Slowenien " > Slowenien </option> 
+<option value-= " Spanien "> Spanien </option> 
+<option value=" Turkei ">Turkei</option> 
+<option value=" Tschechien ">Tschechien</option> 
+<option value=" Ukraine ">Ukraine</option>
+<option value=" Ungarn ">Ungarn</option> 
+<option value=" Weißrußland ">Weißrußland</option>
+<option value=" Zypern ">Zypern</option>
+<option value=" Amerika ">Amerika</option>
+<option value=" Argentinien ">Argentinien</option>
+<option value=" Ecuador " >Ecuador</option>
+<option value=" Kanada " >Kanada</option> 
+<option value=" Kolumbien " >Kolumbien</option> 
+<option value=" Mexiko ">Mexiko</option>
+<option value=" Uruguay ">Uruguay</option>
+<option value=" USA ">USA</option> 
+<option value=" Venezuela ">Venezuela</option>
+<option value=" Afrika ">Afrika</option> 
+<option value=" Elfenbeinküste ">Elfenbeinküste</option>
+<option value=" Marokko " > Marokko </option>
+<option value=" Mosambik " > Mosambik </option> 
+<option value=" Nigeria " >Nigeria</option> 
+<option value=" Tunesien "> Tunesien </option>
+<option value=" Asien/Australien "> Asien/Australien </option>
+<option value=" Aserbaidschan "> Aserbaidschan </option> 
+<option value=" Australien "> Australien </option>
+<option value=" Hongkong ">Hongkong</option> 
+<option value=" Indien "> Indien </option>
+<option value=" Iran "> Iran </option>
+<option value=" Kuwait "> kuwait </option>
+<option value=" Neuseeland "> Neuseeland </option>
+<option value=" Taiwan "> Taiwan </option>
+<option value=" Thailand "> Thailand </option>
+<option value=" VAE "> VAE </option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row third">
+                                    <div class="input-field">
+                                        <div class="result-count">
+                                            <span>108 </span>results</div>
+                                        <div class="group-btn">
+                                            <button class="btn-delete" id="delete">RESET</button>
+                                            <button class="btn-search">SEARCH</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                </form>
+                </div>
+        </section>
+        <div>
+            <!-- More Search funcanilities-->
+
+
+            <script src="js/FlSelect.js"></script>
+            <script src="js/Arbeitsbuehnen.js"></script>
+            <script src="js/extention/choices.js"></script>
+            <script>
+                const customSelects = document.querySelectorAll("select");
+                const deleteBtn = document.getElementById('delete')
+                const choices = new Choices('select', {
+                    searchEnabled: false,
+                    itemSelectText: '',
+                    removeItemButton: true,
+                });
+                for (let i = 0; i < customSelects.length; i++) {
+                    customSelects[i].addEventListener('addItem', function(event) {
+                        if (event.detail.value) {
+                            let parent = this.parentNode.parentNode
+                            parent.classList.add('valid')
+                            parent.classList.remove('invalid')
+                        } else {
+                            let parent = this.parentNode.parentNode
+                            parent.classList.add('invalid')
+                            parent.classList.remove('valid')
+                        }
+                    }, false);
+                }
+                deleteBtn.addEventListener("click", function(e) {
+                    e.preventDefault()
+                    const deleteAll = document.querySelectorAll('.choices__button')
+                    for (let i = 0; i < deleteAll.length; i++) {
+                        deleteAll[i].click();
+                    }
+                });
+
+                function myFunction_Arbeitsbuehnen() {
+                    var x = document.getElementById("Arbeitsbuehnen");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                }
+            </script>
+</body>
+
+</html>

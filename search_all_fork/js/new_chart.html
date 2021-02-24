@@ -1,0 +1,10 @@
+<div class="myBox">
+    blah blah blah.
+    <a href="http://google.com">link</a>
+</div>
+<script>
+    $(".myBox").click(function() {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+</script>

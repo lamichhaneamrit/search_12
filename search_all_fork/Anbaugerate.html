@@ -1,0 +1,709 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="forklift1.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/try.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Gabelstapler</a></li>
+                    <li><a href="Anbaugerate.html">Anbäügeräte</a></li>
+                    <li><a href="Arbeitsbuehnen.html">Arbeitsbühnen</a></li>
+                    <li><a href="Batterie.html">Batterie</a></li>
+                    <li><a href="Lädegeräte.html">Lädegeräte</a></li>
+                    <li><a href="Reinigungstechnik.html">Reinigungstechnik</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class='form-group'>
+        <div onclick="myFunction_Anbaugerate()"></div>
+
+        <section id="Anbäügeräte">
+
+            <div class="s010">
+
+
+                <form>
+                    <div class="inner-form">
+                        <div class="basic-search">
+                            <div class="input-field">
+                                <input id="search" type="text" placeholder="Search all field" />
+                                <div class="icon-wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="advance-search">
+                            <span class="desc"> More Search Fields</span>
+                            <div class="row">
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Bauart" name="Bauart">
+                                    
+
+                    <option placeholder="" value="Bauart">Bauart</option>
+                    <option value=" Abschieber ">Abschieber</option>
+                    <option value=" Ballenklammer ">Ballenklammer</option> 
+                   <option value=" Dornklammer ">Dornklammer</option>
+                    <option value=" Drehgerftg ">Drehgerftg</option> 
+                   <option value=" Entleergerat ">Entleergerat</option>
+                    <option value=" Fasslifter ">Fasslifter</option>
+                    <option value=" FaBklammer ">FaBklammer</option> 
+                   <option value=" Gabeln ">Gabeln</option>
+                    <option value=" Gabelverlangerung ">Gabelverlangerung</option>
+                    <option value=" Gerateklammerg ">Gerateklammerg</option>
+                    <option value=" Hafenklammer ">Hafenklammer</option> 
+                   <option value=" Hydraulische ">Hydraulische Seilwinde</option
+                   > <option value=" Kartonklammer ">Kartonklammer</option>
+                    <option value=" Kehrmaschine ">Kehrmaschine</option>
+                    <option value=" Kippvorrichtung ">Kippvorrichtung mit Schaufeln</option> 
+                   <option value=" Klammergabel ">Klammergabel</option> 
+                   <option value=" Klemmschieber ">Klemmschieber</option> 
+                   <option value=" Kranarm ">Kranarm</option>
+                    <option value=" Lasthalter ">Lasthalter</option>
+                    <option value=" Lastschutzgitter ">Lastschutzgitter</option>
+                    <option value=" Mehrpalettengabelg "></option>Mehrpalettengabelg</option>
+                    <option value=" Palettenwendegerat ">Palettenwendegerat</option> 
+                   <option value=" Papierrollenklammer ">Papierrollenklammer</option> 
+                   <option value=" Personenkorb ">Personenkorb</option> 
+                   <option value=" Reifenklammer ">Reifenklammer</option> 
+                   <option value=" Rohrklammer ">Rohrklammer</option>
+                    <option value=" Rundholzzange ">Rundholzzange</option> 
+                   <option value=" Schaumstoffklammer ">Schaumstoffklammer</option>
+                    <option value=" Schneeschieber ">Schneeschieber</option> 
+                   <option value=" Schattgutschaufelg ">Schattgutschaufelg</option>
+                    <option value=" Seitenschieber ">Seitenschieber</option>
+                    <option value=" Seitenschubgerftg ">Seitenschubgerftg</option>
+                    <option value=" Steinklammer ">Steinklammer</option> 
+                   <option value=" Tabakklammer ">Tabakklammer</option>
+                    <option value=" Teleskopgabelzinken ">Teleskopgabelzinken</option> 
+                   <option value=" Teleskopkranhaken ">Teleskopkranhaken</option> 
+                   <option value=" Tragdorn ">Tragdorn/Teppichdorn</option>
+                    <option value=" Vorschubgabeltrfterg ">Vorschubgabeltrfterg</option>
+                    <option value=" Zellulose ">Zellulose-/Ballenklammer</option> 
+                   <option value=" ZinkenverstellgerSt ">ZinkenverstellgerSt</option> 
+                   <option value=" Zubehorgoption ">Zubehorgoption></option>
+                    <option value=" 0">*** Sonstiger ***</option>
+                   
+                  </select>
+
+                                    </div>
+                                </div>
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Fabrikat" name="Fabrikat">
+                    <option placeholder="Fabrikat" value="Fabrikat">Fabrikat</option>
+                    <option value="0">Fabrikat</option> 
+
+                    <option value="A.T.I.B.">A.T.I.B.</option>
+                    <option value="AIM">AIM</option>
+                    <option value="Auramo">Auramo</option> 
+                   <option value="Autres">Autres</option> 
+                   <option value="Axtra">Axtrag</option>
+                    <option value="BENNING">BENNING</option>
+                    <option value="Bakker">Bakker</option> 
+                   <option value="Barou">Barou</option>
+                    <option value="Bauer">Bauer</option>
+                    <option value="Bolzoni">Bolzoni</option> 
+                   <option value="Bolzoni-Auramo">Bolzoni-Auramo</option>
+                    <option value="Bulmor">Bulmor</option>
+                    <option value="CAM">CAM</option> 
+                   <option value="Cascade">Cascade</option> 
+                   <option value="Caterpillar">Caterpillar</option>
+                    <option value="Container">Container</option> 
+                   <option value= DETA >DETA</option> 
+                   <option value="Diverse">Diverse</option> 
+                   <option value="Durwen">Durmen</option> 
+                   <option value="E-L-M">E-L-M</option>
+                    <option value="EXIDE">EXIDE</option> 
+                   <option value="FRONIUS">FRONIUS</option> 
+                   <option value="FUH Renix">FUH Renix</option> 
+                   <option value="Flotzinger">Flotzinger</option> 
+                   <option value="Forklift-Attachment">Forklift-Attachment</option>
+                    <option value="Forks">Forks</option>
+                    <option value="048">08</option> 
+                   <option value="60 2MT">60 ZMT</option> 
+                   <option value="GRIPTECH">GRIPTECH</option>
+                    <option value="GRUMA">GRUMA</option> 
+                   <option value="0">0</option> 
+                   <option value="Griptech"Ariptechgoption> 
+                   <option value="Griptech Kooi">Griptech Kooi</option>
+                    <option value="Griptech-Kooi">Ariptech-Kooi</option>
+                    <option value="Griptfa">Griptfa</option> 
+                   <option value="HAGABERGS">HAGABERGS</option> 
+                   <option value="HAWKER">HAWKER</option> 
+                   <option value="HOPPECKE">HOPPECKE</option> 
+                   <option value="Hagabergs">Hagabergs</option>
+                    <option value="Hyster">Hyster</option>
+                    <option value="INDUSTRIE AUTOMATION">INDUSTRIE AUTOMATION</option>
+                    <option value="Intra">Intra</option> 
+                   <option value="JKB">JKB</option> 
+                   <option value="JUMBON">JUMBON></option> 
+                   <option value="JUNGHEINRICH">JUNGHEINRICH</option>
+                    <option value="Jumbo">Jumbo</option> 
+                   <option value="Jungheinrich">lungheinrich</option>
+                    <option value="Just Easy Tools">lust Easy Tools</option>
+                    <option value="Kalmar">Kalmar</option>
+                    <option value="Kaup">Kaup</option>
+                   <option value="Kinshofer">Kinshofer</option>
+                    <option value="Klem">Klem</option>
+                    <option value="Komatsu">Komatsu</option> 
+                   <option value="Kooi">Kooi</option>
+                    <option value="Kubota">Kubota</option>
+                    <option value="LINDE">LINDE</option>
+                    <option value="LWASB">LWASB</option>
+                    <option value="Lincrainck">Lincrainck</option> 
+                   <option value="Lindflinde">Lindflinde</option> 
+                   <option value="Little-Giant">Little-Giant</option> 
+                   <option value="Lock Group">Alick Group</option>
+                    <option value="MARATHON">MARATHON</option> 
+                   <option value="MTS">MTS</option> 
+                   <option value="Magni">Magni</option> 
+                   <option value="Malik">Malik</option> 
+                   <option value="Mandigers">Mandigers</option>
+                    <option value="Manitou">Manitou</option> 
+                   <option value="ManuTer">ManuTer</option> 
+                   <option value="Merlo">Merlo</option> 
+                   <option value="Meyer">Meyer</option>
+                    <option value="Mitsubishi">Mitsubishi</option>
+                    <option value="Mustang">Mustang</option> 
+                   <option value="Niet ingevuld">Niet ingevuld</option> 
+                   <option value="OILQICK">OILQICK</option> 
+                   <option value="OTHER">OTHER</option>
+                    <option value="Oilqick">Oilgick</option>
+                    <option value="Perkins">Perkins</option> 
+                   <option value="Pladdet">Pladdet</option> 
+                   <option value="RCA TECH">RCA TECH</option>
+                    <option value="REMA">REMA</option>
+                    <option value="RMS Rotherm Maschinenbau">RMS Rotherm Maschinenbau</option> 
+                   <option value="Ravas">Ravas</option> 
+                   <option value="Rockinger">Rockinger</option>
+                    <option value="Roncari">Roncari</option> 
+                   <option value="SH">SH</option>
+                    <option value="SH Anbaugergte">SH Anbaugerite</option>
+                    <option value="SHB">SHB</option> 
+                   <option value="SMC Euroclamp">SMC Euroclamp</option>
+                    <option value="STUBA">STUBA</option> 
+                   <option value="Seith">Seith</option>
+                    <option value="Skancraft">Skancraft</option>
+                    <option value="Sonstige">Sonstige</option>
+                    <option value="Spinturner">Spinturner</option>
+                    <option value="Stabau">Stabau</option> 
+                   <option value="Steinweg">Steinweg</option>
+                    <option value="Still">Still</option>
+                    <option value="Stimag">Stimag</option> 
+                   <option value="Svetruck">Svetruck</option>
+                    <option value="TCW">TCW</option>
+                    <option value="TRAKTION">TRAKTION</option> 
+                   <option value="TRICOM">TRICOM</option> 
+                   <option value="TVH">TVH</option> 
+                   <option value="Tedoldi">Tedoldi</option>
+                   <option value="Toyota">Toyota</option>
+                    <option value="Tucher">Tuchel</option>
+                    <option value="VETTER">VETTER</option> 
+                   <option value="Vetter">Vetter</option> 
+                   <option value="Vorken">Vorken</option>
+                    <option value="Wagner">Wagner</option> 
+                   <option value="Weitere">Weitere</option> 
+                   <option value="Wifo">Wifo</option> 
+                   <option value="[div]">[div]</option> 
+                   <option value="kooi">kooi</option>
+                    <option value="weitere">weitere</option>
+                   
+                  </select>
+                                    </div>
+                                </div>
+
+                                <div class="input-field">
+                                    <div class="input-select">
+                                        <select id="Tragkraft Von" name="Tragkraft Von">
+                                    <option placeholder="Tragkraft(von)" value="Tragkraft Von">Tragkraft(kg) Von</option>
+                    <option value="0">0</option>
+                    <option value="500">500</option>
+                    <option value="1000">1000</option>
+                    <option value="1500">1500</option>
+                    <option value="2000">2000</option>
+                    <option value="2500">2500</option>
+                    <option value="3000">3000</option>
+                    <option value="3500">3500</option>
+                    <option value="4000">4000</option>
+                    <option value="4500">4500</option>
+                    <option value="4500">4500</option>
+                    <option value="5000">5000</option>
+                    <option value="5500">5500</option>
+                    <option value="6000">6000</option>
+                    <option value="6500">6500</option>
+                    <option value="7000">7000</option>
+                    <option value="7500">7500</option>
+                    <option value="8000">8000</option>
+                    <option value="8500">8500</option>
+                    <option value="9000">9000</option>
+                    <option value="9500">9500</option>
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                    <option value="50000">50000</option>
+                    <option value="60000">60000</option>
+                    <option value="70000">70000</option>
+                    <option value="80000">80000</option>
+                    <option value="90000">90000</option>
+                    <option value="100000">100000</option>
+
+
+
+
+
+
+
+                  </select>
+                                    </div>
+                                </div>
+
+                                <div class="input-select">
+                                    <div class="input-select">
+
+                                        <select id="Tragkraft Bis" name="Tragkraft Bis">
+                                    <option placeholder="Tragkraft(bis)" value="Tragkraft Bis">Tragkraft(kg) bis</option>
+                    <option value="0">Tragkraft Bis</option>
+                    <option value="0">0</option>
+                    <option value="500">500</option>
+                    <option value="1000">1000</option>
+                    <option value="1500">1500</option>
+                    <option value="2000">2000</option>
+                    <option value="2500">2500</option>
+                    <option value="3000">3000</option>
+                    <option value="3500">3500</option>
+                    <option value="4000">4000</option>
+                    <option value="4500">4500</option>
+                    <option value="4500">4500</option>
+                    <option value="5000">5000</option>
+                    <option value="5500">5500</option>
+                    <option value="6000">6000</option>
+                    <option value="6500">6500</option>
+                    <option value="7000">7000</option>
+                    <option value="7500">7500</option>
+                    <option value="8000">8000</option>
+                    <option value="8500">8500</option>
+                    <option value="9000">9000</option>
+                    <option value="9500">9500</option>
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                    <option value="50000">50000</option>
+                    <option value="60000">60000</option>
+                    <option value="70000">70000</option>
+                    <option value="80000">80000</option>
+                    <option value="90000">90000</option>
+                    <option value="100000">100000</option>
+
+
+
+
+
+
+
+
+                  </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-select">
+
+                                <div class="row second">
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Eigengewicht bis" name="Eigengewicht bis">
+                                        <option placeholder="Eigengewicht bis" value="Eigengewicht bis">Eigengewicht bis</option>
+                                        <option value="0">0</option>
+                                        <option value='500'>500 kg</option>
+                                        <option value="1000">1000 kg </option>
+                                        <option value="1500">1500 kg </option>
+                                        <option value="2000">2000 kg</option>
+                                        <option value="2500">2500 kg</option>
+                                        <option value="3000">3000 kg</option>
+                                        <option value="3500">3500 kg</option>
+                                        <option value="4000">4000 kg </option>
+                                        <option value="4500">4500 kg </option>
+                                        <option value="5000">5000 kg</option>
+                                        <option value="5500">5500 kg</option>
+                                        <option value="6000">6000 kg</option>
+                                        <option value="6500">6500 kg</option>
+                                        <option value="7000">7000 kg</option>
+                                        <option value="7500">7500 kg</option>
+                                        <option value="8000">8000 kg</option>
+                                        <option value="8500">8500 kg</option>
+                                        <option value="9000">9000 kg</option>
+                                        <option value="10000">10000 kg</option>
+                                       
+
+                  </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Preis Von" name="Preis Von">
+                    <option placeholder="Preis Von" value="Preis Von">Preis Von </option>
+                    <option value="0">0 EUR</option>
+                    <option value="1000">1000 EUR</option>
+                    <option value="2000">2000 EUR</option>
+                    <option value="3000">3000 EUR</option>
+                    <option value="4000">4000 EUR</option> 
+                   <option value="5000">5000 EUR</option> 
+                   <option value="6000">6000 EUR</option>
+                    <option value="7000">7000 EUR</option>
+                    <option value="8000">8000 EUR</option>
+                    <option value="9000">9000 EUR</option>
+                    <option value="10000">10000 EUR</option>
+                    <option value="11000">11000 EUR</option>
+                    <option value="12000">12000 EUR</option> 
+                   <option value="13000">13000 EUR</option>
+                    <option value="14000">14000 EUR</option>
+                    <option value="15000">15000 EUR</option> 
+                   <option value="16000">16000 EUR</option>
+                    <option value="17000">17000 EUR</option>
+                    <option value="18000">18000 EUR</option> 
+                   <option value="19000">19000 EUR</option> 
+                   <option value="20000">20000 EUR</option> 
+                   <option value="21000">21000 EUR</option>
+                    <option value="22000">22000 EUR</option>
+                    <option value="23000">23000 EUR</option>
+                    <option value="24000">24000 EUR</option> 
+                   <option value="25000">25000 EUR</option> 
+                   <option value="26000">26000 EUR</option>
+                    <option value="27000">27000 EUR</option> 
+                   <option value="28000">28000 EUR</option> 
+                   <option value="29000">29000 EUR</option>
+                    <option value="30000">30000 EUR</option>
+                    <option value="31000">31000 EUR</option> 
+                   <option value="32000">32000 EUR</option> 
+                   <option value="33000">33000 EUR</option>
+                    <option value="34000">34000 EUR</option> 
+                   <option value="35000">35000 EUR</option> 
+                   <option value="36000">36000 EUR</option> 
+                   <option value="37000">37000 EUR</option> 
+                   <option value="38000">38000 EUR</option> 
+                   <option value="39000">39000 EUR</option> 
+                   <option value="40000">40000 EUR</option> 
+                   <option value="41000">41000 EUR</option>
+                    <option value="42000">42000 EUR</option> 
+                   <option value="43000">43000 EUR</option> 
+                   <option value="44000">44000 EUR</option> 
+                   <option value="45000">45000 EUR</option> 
+                   <option value="46000">46000 EUR</option>
+                    <option value="47000">47000 EUR</option> 
+                   <option value="48000">48000 EUR</option>
+                    <option value="49000">49000 EUR</option>
+                   <option value="50000">50000 EUR</option>
+                     <option value="51000">51000 EUR </option>
+                    <option value="52000">52000 EUR  </option>
+                    <option value="53000">53000 EUR  </option>
+                    <option value="54800">54000 EUR  </option>
+                   <option value="55000">55000 EUR  </option>
+                    <option value="56800">56000 EUR  </option>
+                   <option value="57000">57000 EUR  </option>
+                   <option value="58800">58000 EUR  </option>
+                   <option value="59000">59000 EUR  </option>
+                    <option value="60000">60000 EUR  </option>
+                   <option value="61000">61000 EUR  </option>
+                    <option value="62000">62000 EUR  </option>
+                    <option value="63000">63000 EUR  </option>
+                   <option value="64000">64000 EUR  </option>
+                   <option value="65000">65000 EUR  </option>
+                   <option value=-66000">66000 EUR  </option>
+                    <option value="67000">67000 EUR  </option>
+                    <option value="68000">68000 EUR  </option>
+                   <option value="69000">69000 EUR  </option>
+                   <option value="70000">70000 EUR  </option>
+                   <option value="71000">71000 EUR  </option>
+                    <option value="72000">72000 EUR  </option>
+                    <option value="73000">73000 EUR  </option>
+                    <option value="74000">74000 EUR  </option>
+                    <option value="75000">75000 EUR  </option>
+                   <option value="76000">76000 EUR  </option>
+                   <option value="77000">77000 EUR  </option>
+                   <option value="78800">78000 EUR  </option>
+                   <option value="79000">79000 EUR  </option>
+                    <option value="80000">80000 EUR  </option>
+                   
+                  </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Preis bis" name="Preis bis">
+                    <option placeholder="Preis bis" value="">Preis bis</option>
+                    <option value="0">Preis von</option>
+ <option value="0">0 EUR</option>
+ <option value="1000">1000 EUR</option>
+ <option value="2000">2000 EUR</option>
+ <option value="3000">3000 EUR</option>
+ <option value="4000">4000 EUR</option> 
+<option value="5000">5000 EUR</option> 
+<option value="6000">6000 EUR</option>
+ <option value="7000">7000 EUR</option>
+ <option value="8000">8000 EUR</option>
+ <option value="9000">9000 EUR</option>
+ <option value="10000">10000 EUR</option>
+ <option value="11000">11000 EUR</option>
+ <option value="12000">12000 EUR</option> 
+<option value="13000">13000 EUR</option>
+ <option value="14000">14000 EUR</option>
+ <option value="15000">15000 EUR</option> 
+<option value="16000">16000 EUR</option>
+ <option value="17000">17000 EUR</option>
+ <option value="18000">18000 EUR</option> 
+<option value="19000">19000 EUR</option> 
+<option value="20000">20000 EUR</option> 
+<option value="21000">21000 EUR</option>
+ <option value="22000">22000 EUR</option>
+ <option value="23000">23000 EUR</option>
+ <option value="24000">24000 EUR</option> 
+<option value="25000">25000 EUR</option> 
+<option value="26000">26000 EUR</option>
+ <option value="27000">27000 EUR</option> 
+<option value="28000">28000 EUR</option> 
+<option value="29000">29000 EUR</option>
+ <option value="30000">30000 EUR</option>
+ <option value="31000">31000 EUR</option> 
+<option value="32000">32000 EUR</option> 
+<option value="33000">33000 EUR</option>
+ <option value="34000">34000 EUR</option> 
+<option value="35000">35000 EUR</option> 
+<option value="36000">36000 EUR</option> 
+<option value="37000">37000 EUR</option> 
+<option value="38000">38000 EUR</option> 
+<option value="39000">39000 EUR</option> 
+<option value="40000">40000 EUR</option> 
+<option value="41000">41000 EUR</option>
+ <option value="42000">42000 EUR</option> 
+<option value="43000">43000 EUR</option> 
+<option value="44000">44000 EUR</option> 
+<option value="45000">45000 EUR</option> 
+<option value="46000">46000 EUR</option>
+ <option value="47000">47000 EUR</option> 
+<option value="48000">48000 EUR</option>
+ <option value="49000">49000 EUR</option>
+
+<option value="50000">50000 EUR</option>
+  <option value="51000">51000 EUR </option>
+ <option value="52000">52000 EUR  </option>
+ <option value="53000">53000 EUR  </option>
+ <option value="54800">54000 EUR  </option>
+<option value="55000">55000 EUR  </option>
+ <option value="56800">56000 EUR  </option>
+<option value="57000">57000 EUR  </option>
+<option value="58800">58000 EUR  </option>
+<option value="59000">59000 EUR  </option>
+ <option value="60000">60000 EUR  </option>
+<option value="61000">61000 EUR  </option>
+ <option value="62000">62000 EUR  </option>
+ <option value="63000">63000 EUR  </option>
+<option value="64000">64000 EUR  </option>
+<option value="65000">65000 EUR  </option>
+<option value="66000">66000 EUR  </option>
+ <option value="67000">67000 EUR  </option>
+ <option value="68000">68000 EUR  </option>
+<option value="69000">69000 EUR  </option>
+<option value="70000">70000 EUR  </option>
+<option value="71000">71000 EUR  </option>
+ <option value="72000">72000 EUR  </option>
+ <option value="73000">73000 EUR  </option>
+ <option value="74000">74000 EUR  </option>
+ <option value="75000">75000 EUR  </option>
+<option value="76000">76000 EUR  </option>
+<option value="77000">77000 EUR  </option>
+<option value="78800">78000 EUR  </option>
+<option value="79000">79000 EUR  </option>
+ <option value="80000">80000 EUR  </option>
+
+                  </select>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="ISO-Klasse" name="ISO-Klasse">
+                                        <option placeholder="ISO-Klasse" value="ISO-Klase">ISO-Klasse</option>
+                                        <option value="2">2</option> 
+                                        <option value="3">3</option>
+                                        <option value="4">4</option> 
+                                        <option value="Pin-Type">Pin-Type</option> 
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="input-field">
+                                        <div class="input-select">
+                                            <select id="Land" name="Land">
+                                        <option placeholder="Land" value="Land">Land</option>
+                                        
+<option value="*">Land</option>
+<option value=" Europa " selected>Europa</option>
+<option value=" Albanien ">Albanien</option>
+<option value=" Osterreich ">Osterreich</option> 
+<option value=" Belgien ">Belgien</option>
+<option value=" Bulgarien ">Bulgarien</option> 
+<option value=" Dänemark ">Dänemark</option>
+<option value=" Deutschland ">Deutschland</option> 
+<option value=" Estland "> Estland</option> 
+<option value=" Finnland "> Finnland</option>
+<option value=" Frankreich " >Frankreich</option> 
+<option value=" Ariechenland ">Ariechenland</option> 
+<option value=" Großbritannien ">Großbritannien</option>
+<option value=" Irland ">Irland</option> 
+<option value=" Island ">Island</option>
+<option value=" Italien ">Italien</option> 
+<option value=" Kroatien ">Kroatien</option> 
+<option value=" Litauen ">Litauen</option> 
+<option value=" Mazedonien "> Mazedonien</option>
+<option value=" Moldawien ">Moldawien</option> 
+<option value=" Niederlande ">Niederlande</option>
+<option value=" Norwegen ">Norwegen</option> 
+<option value=" Polen ">Polen</option>
+<option value=" Portugal ">Portugal</option> 
+<option value=" Rußland">Rußland </option> 
+<option value= " Rumanien "> Rumanien</option>
+<option value= " Schweden "> Schweden</option> 
+<option value=  " Schweiz " >Schweiz</option> 
+<option value-=" Serbien " >Serbien</option> 
+<option value= " Slowakei "> Slowakei</option>
+<option value= " Slowenien " > Slowenien </option> 
+<option value-= " Spanien "> Spanien </option> 
+<option value=" Turkei ">Turkei</option> 
+<option value=" Tschechien ">Tschechien</option> 
+<option value=" Ukraine ">Ukraine</option>
+<option value=" Ungarn ">Ungarn</option> 
+<option value=" Weißrußland ">Weißrußland</option>
+<option value=" Zypern ">Zypern</option>
+<option value=" Amerika ">Amerika</option>
+<option value=" Argentinien ">Argentinien</option>
+<option value=" Ecuador " >Ecuador</option>
+<option value=" Kanada " >Kanada</option> 
+<option value=" Kolumbien " >Kolumbien</option> 
+<option value=" Mexiko ">Mexiko</option>
+<option value=" Uruguay ">Uruguay</option>
+<option value=" USA ">USA</option> 
+<option value=" Venezuela ">Venezuela</option>
+<option value=" Afrika ">Afrika</option> 
+<option value=" Elfenbeinküste ">Elfenbeinküste</option>
+<option value=" Marokko " > Marokko </option>
+<option value=" Mosambik " > Mosambik </option> 
+<option value=" Nigeria " >Nigeria</option> 
+<option value=" Tunesien "> Tunesien </option>
+<option value=" Asien/Australien "> Asien/Australien </option>
+<option value=" Aserbaidschan "> Aserbaidschan </option> 
+<option value=" Australien "> Australien </option>
+<option value=" Hongkong ">Hongkong</option> 
+<option value=" Indien "> Indien </option>
+<option value=" Iran "> Iran </option>
+<option value=" Kuwait "> kuwait </option>
+<option value=" Neuseeland "> Neuseeland </option>
+<option value=" Taiwan "> Taiwan </option>
+<option value=" Thailand "> Thailand </option>
+<option value=" VAE "> VAE </option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row third">
+                                    <div class="input-field">
+                                        <div class="result-count">
+                                            <span>108 </span>results</div>
+                                        <div class="group-btn">
+                                            <button class="btn-delete" id="delete">RESET</button>
+                                            <button class="btn-search">SEARCH</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                </form>
+
+        </section>
+
+
+        </div>
+
+        <!-- More Search funcanilities-->
+
+
+        <script src="js/FlSelect.js"></script>
+
+        <script src="js/Anbaugerate.js"></script>
+        <script src="js/extention/choices.js"></script>
+        <script>
+            const customSelects = document.querySelectorAll("select");
+            const deleteBtn = document.getElementById('delete')
+            const choices = new Choices('select', {
+                searchEnabled: false,
+                itemSelectText: '',
+                removeItemButton: true,
+            });
+            for (let i = 0; i < customSelects.length; i++) {
+                customSelects[i].addEventListener('addItem', function(event) {
+                    if (event.detail.value) {
+                        let parent = this.parentNode.parentNode
+                        parent.classList.add('valid')
+                        parent.classList.remove('invalid')
+                    } else {
+                        let parent = this.parentNode.parentNode
+                        parent.classList.add('invalid')
+                        parent.classList.remove('valid')
+                    }
+                }, false);
+            }
+            deleteBtn.addEventListener("click", function(e) {
+                e.preventDefault()
+                const deleteAll = document.querySelectorAll('.choices__button')
+                for (let i = 0; i < deleteAll.length; i++) {
+                    deleteAll[i].click();
+                }
+            });
+
+            function myFunction_Anbaugerate() {
+                var x = document.getElementById("Anbäügeräte");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+</body>
+
+</html>
