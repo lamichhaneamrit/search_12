@@ -1,2 +1,2 @@
-This template was made by Colorlib (https://colorlib.com)
-Please visit our website for more awesome templates, themes and tools. 
+Some search categories functions are almost doen.. Once a good frontend is provided, must integrate it with suitable templates in order to 
+host in your website..
